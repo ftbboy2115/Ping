@@ -10,8 +10,14 @@ def print_hi(name):
     print('How are you doing?')
 
 
+def my_function(a, b):
+    return a+b
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Clay')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+    print(my_function(2,4))
